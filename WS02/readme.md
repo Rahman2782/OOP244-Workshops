@@ -87,71 +87,6 @@ To check the output, use a program that can compare text files.  Search online f
 
 > Note: All the code written in workshops and the project must be implemented in the **seneca** namespace unless instructed otherwise.
 
-## Submission
-
-### Lab Submission
-```bash
-~profname.proflastname/submit 2??/wX/lab_sss <ENTER>
-```
-- Replace **??** with your subject code (`00 or 44`)
-- Replace **X** with Workshop number: [`1 to 10`]
-- Replace **sss** with the section: [`naa, nbb, nra, zaa, etc...`]
-
-### Reflection Submission
-```bash
-~profname.proflastname/submit 2??/wX/ref_sss <ENTER>
-```
-- Replace **??** with your subject code (`00 or 44`)
-- Replace **X** with Workshop number: [`1 to 10`]
-- Replace **sss** with the section: [`naa, nbb, nra, zaa, etc...`]
-
-### DIY Testing (No Submission)
-DIY does not need submission and is for practice only, however, if you want to test your solution you can use the submit command as follows.
- 
->This will not submit anything and only tests your program
-
-```bash
-~profname.proflastname/submit 2??/wX/diy_sss <ENTER>
-```
-- Replace **??** with your subject code (`00 or 44`)
-- Replace **X** with Workshop number: [`1 to 10`]
-- Replace **sss** with the section: [`naa, nbb, nra, zaa, etc...`]
-
-
-### Custom code submission
-
-If you have any additional custom code, (i.e. functions, classes etc) that you want to reuse in the workshop save them under a module called Utils (`utils.cpp and utils.h`) and submit them with your workshop using the following instructions.
-
-To have your custom Utils module compiled with your workshop, add a **u** to the submission name of your workshop (i.e **u**lab_sss or **u**diy_sss) and issue the submission:
-
-Example:
-```bash
-~profname.proflastname/submit 2??/wX/ulab_sss  <ENTER>
-~profname.proflastname/submit 2??/wX/udiy_sss  <ENTER>
-```
-
-- Replace **??** with your subject code (`00 or 44`)
-- Replace **X** with Workshop number: [`1 to 10`]
-- Replace **sss** with the section: [`naa, nbb, nra, zaa, etc...`]
-
-### Testing Your lab before submission opens
-You can always test your code before submission is open (providing your professor makes it available) and after submission is closed using the `-feedback` option:
-
-
-Example:
-```bash
-~profname.proflastname/submit 2??/wX/lab_sss -feedback <ENTER>
-~profname.proflastname/submit 2??/wX/ulab_sss -feedback <ENTER>
-```
-
-### submission options
-
-To see all the options for submission issue the submit command with no arguments
-
-Example:
-```bash
-~profname.proflastname/submit <ENTER>
-```
 
 
 # Part 1 - LAB (100%)
@@ -302,20 +237,6 @@ main.cpp
 
 follow the instructions in the teste program.
 
-### Submission Process
-
-
-Upload your source code to your `matrix` account. Compile and run your code using the `g++` compiler as shown in [Compiling and Testing Your Program](#compiling-and-testing-your-program) and make sure that everything works properly.
-
-Then, run the submission command from your matrix account
-
-
-#### Submitting Utils Module
-
-See [Custom Code Submission](#custom-code-submission) section for more detail
-
-
-> **⚠️Important:** Please note that a successful submission does not guarantee full credit for this workshop. If the professor is not satisfied with your implementation, your professor may ask you to resubmit. Re-submissions will attract a penalty.
 
 ## Reflection
 
@@ -451,14 +372,3 @@ Population.cpp
 Population.h
 main.cpp
 ```
-
-
-### Data Entry
-
-No data entry needed
-
-### Testing Process
-
-Upload your source code to your `matrix` account. Compile and run your code using the `g++` compiler as shown in [Compiling and Testing Your Program](#compiling-and-testing-your-program) and make sure that everything works properly.
-
-Then, run the submit command from your matrix account to test the execution of your DIY section
